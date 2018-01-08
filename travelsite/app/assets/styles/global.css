@@ -1,6 +1,7 @@
 
 body {
 	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1em;
 }
 ul {
 	list-style-type: none;
@@ -8,4 +9,11 @@ ul {
 a {
 	text-decoration: none;
 	color: #fff;
+}
+a:link {
+	text-decoration: none;
+}
+
+a img {
+	border: 0;
 }

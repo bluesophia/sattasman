@@ -1,0 +1,57 @@
+/*mobile css*/
+	/*기본 css*/
+.tab-bar {
+	order: 2;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.tab-bar__tab {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.tab-bar__tab--li {
+	margin-top: 8px;
+	margin-left: 10px;
+	font-size: 10px;
+	font-weight: 100;
+}
+/*tablet css*/
+@media all and (min-width: 768px){	
+	.tab-bar__tab {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-top: 5px;
+}
+	.tab-bar__tab--li {
+	margin-top: 8px;
+	margin-left: 15px;
+	font-size: 12px;
+	font-weight: 300;
+}
+}
+/*pc css*/
+@media all and (min-width: 960px){
+	.tab-bar__tab--li {
+	margin-top: 8px;
+	margin-left: 15px;
+	font-size: 12px;
+	font-weight: 300;
+}
+.tab-bar__tab--li--selected button{
+	margin-left: 15px;
+	margin-right: 10px;
+	font-size: 12px;
+	font-weight: 300;
+	width: 85px;
+	height: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+}	

@@ -1,0 +1,36 @@
+/* smartphone css */
+
+/* tablet css */
+@media all and (min-width: 768px){
+    #button{
+        font-size: 12px;
+        background-color: #2D556E;
+        padding: 8px 6px;
+        text-align: center;
+        margin: 0;
+        margin-left: 18px;      
+    }
+
+    .tab-bar .button{
+        background-color: #2D556E;
+        height: 11px;
+        padding: 10px;
+
+    }
+
+    #buttongetstarted {
+        font-size: 12px;
+        background-color: #f96e1c;
+        padding: 8px;
+        text-align: center;
+        margin: 0;
+        margin-left: 0px;
+    }
+}
+
+/* PC css */
+@media all and (min-width: 960px){
+    
+    }   
+
+

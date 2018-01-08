@@ -1,0 +1,59 @@
+/*mobile css*/
+	/*기본 css*/
+.top-header {
+	background-color: rgba(45,85,110,0.4);
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+
+}
+.top-header__div {
+	width: 80px;
+	height: 65px;
+	background-color: #2D556E;
+	z-index: 1;
+	margin-left: 10px;
+}
+.top-header__img {
+    width: 60px;
+    height: 65px;
+    padding: 3px;
+    margin-left: 10px;
+}
+/*tablet css*/
+@media all and (min-width: 768px){	
+	/*기본 css*/
+	.top-header {
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.top-header__div {
+	width: 125px;
+	height: 74px;
+}
+.top-header__img {
+    width: 85px;
+    height: 65px;
+    padding: 8px;
+}
+}	
+/*pc css*/
+@media all and (min-width: 960px){
+	/*기본 css*/	
+	.top-header__div {
+	width: 130px;
+	height: 75px;
+}
+	.top-header__img {
+    width: 100px;
+    height: 65px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+}	

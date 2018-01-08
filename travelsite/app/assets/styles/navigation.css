@@ -1,32 +1,25 @@
+/* smartphone css */
 
-.tab-bar {
-	position: fixed;
-	width: 98%;
-	top: 0;
-}
-.tab-bar__tab {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: flex-end;
-    text-decoration: none;
-    margin-top: 5px;
-}
-.tab-bar__tab--li {
-	margin-top: 8px;
-	margin-left: 15px;
-	font-size: 12px;
+/* tablet css */
+@media all and (min-width: 768px){
+	.tab-bar {
+		width: 100%;
+		position: fixed;
+		margin: 0;
+	}
+	.tab-bar a{
+	    text-decoration: none;
+	    float: left;
+	    margin-top: 6px;
+		margin-left: 27px;
+		font-size: 12px;
 	font-weight: 300;
-}
-.tab-bar__tab--li--selected button{
-	margin-left: 15px;
-	font-size: 12px;
-	font-weight: 300;
-	background-color: #2d556e;
-	border-radius: 0;
-	border: none;
-	width: 100px;
-	height: 22px;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-bottom: 20px;
-}
+	}
+	.navi {
+	}
+
+/* PC css */
+@media all and (min-width: 960px){
+	
+	}	
+

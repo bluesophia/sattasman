@@ -1,0 +1,120 @@
+.getstarted {
+	width: 100%;
+}
+.getstarted__top--img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        order: 2;
+        width: 100%;
+        height: 305px;
+        background: url(../images/hero--large.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+.getstarted__top-row {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.getstarted__top-row h1{
+	color: #2D556E;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+.getstarted__top-row h2{
+	color: #2D556E;
+	font-weight: 100;
+	font-size: 20px;
+	margin-bottom: 28px;
+}
+
+.getstarted__top-row p{
+	color: #F0EBE6;
+	font-weight: 100;
+	margin-bottom: 20px;
+	font-size: 10px;
+}
+
+.getstarted__top--text {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3px;
+    margin-bottom: 9px;
+}
+
+/*tablet css*/
+@media all and (min-width: 768px){ 
+    /*기본 css*/
+    .getstarted__top--img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        order: 2;
+        width: 100%;
+        height: 350px;
+        background: url(../images/hero--large.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .getstarted__top-row {
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    .getstarted__top-row h1{
+    color: #2D556E;
+    font-weight: 100;
+    font-size: 40px;
+}
+    .getstarted__top-row p{
+    color: #F0EBE6;
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+}
+/*pc css*/
+@media all and (min-width: 960px){
+    /*기본 css*/
+    .getstarted__top--img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        order: 2;
+        width: 100%;
+        height: 400px;
+        background: url(../images/hero--large.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .getstarted__top-row {
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    .getstarted__top-row h1{
+    color: #2D556E;
+    font-weight: 100;
+    font-size: 50px;
+}
+    .getstarted__top-row p{
+    color: #F0EBE6;
+    font-weight: 100;
+    margin-bottom: 55px;
+    font-size: 16px;
+}
+}   
+
