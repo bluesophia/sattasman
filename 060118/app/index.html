@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>youtube</title>
+	<link rel="stylesheet" href="assets/styles/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/javascript-state-machine/2.0.0/state-machine.min.js"></script>
+	<script src="assets/js/script.js"></script>
+	
+
+</head>
+<body>
+	<div id="wrap">
+		<!-- 검색창 -->
+		<header class="header">
+			<!-- 메뉴토글로 -->
+			<div class="youtubeLogo">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+				<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				<p>YouTube</p>
+			</div>
+			<!-- 검색창 -->
+			<div class="inputSearch">
+				<input type="text">
+				<button><i class="fa fa-search" aria-hidden="true"></i></button>
+			</div>
+			<!-- 사람모양/공유 -->
+			<div class="menuRight">
+				<a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+			</div>	
+		</header>
+		<!-- 메뉴-nav -->
+		<aside class="aside">
+			<!-- 네비게이션 -->
+			<section class="navSection">
+				<nav class="nav">
+					<ul class="menuUl">
+						<li><a href="">menu1</a></li>
+						<li><a href="">menu2</a></li>
+						<li><a href="">menu3</a></li>
+						<li><a href="">menu4</a></li>
+					</ul>
+				</nav>
+			</section>
+		</aside>	
+		<main class="container">
+			<!-- 버튼 -->
+			<section class="buttonSection">
+
+			</section>
+			<!-- 리스트 -->
+			<section class="listSection">
+				<table id="myTable">
+					<caption class="btnSection">
+						<div class="button">	
+							<a href="" id="btn1">추가</a>
+							<a href="" id="btn2">삭제</a>
+						</div>
+					</caption>
+					<thead>
+						<tr>
+							<th>순번</th>
+							<th>이름</th>
+							<th>나이</th>
+						</tr>
+					</thead>
+					<tbody id="tBody">
+						<tr id="trText">
+							<td>1</td>
+							<td>소희</td>
+							<td>30</td>
+						</tr>
+					</tbody>	
+				</table>
+			</section>
+		</main>
+	</div>
+</body>
+</html>

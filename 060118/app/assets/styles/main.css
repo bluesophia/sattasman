@@ -1,0 +1,35 @@
+.container {
+	margin-left: 200px;
+	padding: 50px 20px;
+	width: 100%;
+}
+
+table {
+	margin-top: 30px;
+	width: 300px;
+	border-spacing: 0;
+	border-top: 1px solid #ddd;
+}
+
+th, td {
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+}
+
+.button {
+	float: right;
+	margin-bottom: 10px;
+}
+
+#btn1 {
+	border: 1px solid blue;
+	background-color: blue;
+	padding: 2px 5px;
+	color: white;
+}
+#btn2 {
+	border: 1px solid red;
+	background-color: red;
+	padding: 2px 5px;	
+	color: white;
+}
